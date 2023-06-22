@@ -1,0 +1,35 @@
+__path__ = pathname
+name_of_output = output
+
+**NOTE :    Các tên folder được lưu theo dạng:   <tên folder|tên file> : <tên heading|tên picture|tên ảnh nếu có>     
+            và các folder ở bên trong phải cách các folder ngoài 1 tab hoặc 4 dấu space
+            Run file : ./main --path <đường dẫn đến file path.txt> 
+
+TREE :
+1 : 1. Introduction
+    1.docx
+2 : 2. Compiler Usage
+	1 : 2.1. SRAM Options
+		1 : 2.1.1. Basic options
+		    1.docx
+		2 : 2.1.2. Additional options
+		    1.docx
+	2 : 2.2. Main GUI Pull Down Menus
+		1 : 2.2.1. File
+			1.docx
+			2.png
+		2 : 2.2.2. Generate
+			1.docx
+			2.png
+	3 : 2.3. GUI Options
+		1.docx
+3 : 3. RAMpiler+ Pin Definition and
+	1.docx : RAMpiler Single Port Pin Definition
+4 : 4. RAMpiler+ Naming Convention
+	1.docx
+	2.docx : Naming Convention for Top Level
+5 : 5. READWRITE Timing Diagram Without Output Register
+	1.png : Read Write Timing Diagram without Registered Output
+6 : Appendix A: Datasheet description
+7 : Appendix B: Optimizing for AREA
+8 : Appendix C: Optimizing for Timing
