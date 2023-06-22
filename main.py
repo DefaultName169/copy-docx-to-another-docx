@@ -12,7 +12,7 @@ from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--path', default=None, required=False)
+parser.add_argument('--path', default= 'path.txt' , required=False)
 # parser.add_argument('--name', default=None, required=False)
 cli_args = parser.parse_args()
 
