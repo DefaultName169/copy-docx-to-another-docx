@@ -45,12 +45,12 @@ def xmlstring_to_oxmlelement(string):
     eval = ''
     first = ()
     array = re.split('<|>', string)
-    for x in array:
-        if x == '':
+    for x in array :
+        if x == '' :
             continue
         else :
             my_arr = re.split(' \w+:',x)
-            if queue:
+            if queue :
                 if re.search('^/' + queue[-1], x) :
                     a = queue.pop()
                     while save:
